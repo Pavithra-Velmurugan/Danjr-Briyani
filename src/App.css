@@ -1,0 +1,53 @@
+.sticky {
+  overflow: hidden;
+  position: absolute!important;
+  background-color: transparent;
+  opacity: 0.8;
+  width: 100%;
+  z-index: 33;
+  /* opacity: 50%; */
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.bbblack{
+  background: #000;
+  color: white;
+  text-align: center;
+  justify-content: left;
+}
+.nav-link.active {
+
+  color: #ffff00 !important;
+  opacity: 100% !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffff00 !important;
+  opacity: 100% !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    flex-grow: unset !important;
+  }
+}
+
+
+.homeContainer{
+/* display: ; */
+max-width:  300px;
+
+}
+
+.reviewbox{
+  border: 2px solid black;
+}
+.padding0{
+  padding-right: 0px !important ;
+  padding-left: 0px !important ;
+
+}
